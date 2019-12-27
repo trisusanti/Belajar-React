@@ -13,6 +13,7 @@ import AddIcon from "@material-ui/icons/Add";
 import ReorderIcon from "@material-ui/icons/Reorder";
 import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 import Category from "../../components/category";
+import Content from "../../components/content";
 
 function Component() {
   return (
@@ -121,6 +122,9 @@ function Component() {
         </div>
         <div style={{ padding: 10 }}>
           <Category />
+        </div>
+        <div style={{ padding: 10 }}>
+          <Content />
         </div>
       </Container>
     </React.Fragment>
